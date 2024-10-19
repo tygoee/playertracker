@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:compass",
+                    "predicates": {
+                        "minecraft:custom_data": {
+                            "tracking": false
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "playertracker:select/use"
+    }
+}

@@ -1,0 +1,1 @@
+execute unless score @s playertracker.id = @s playertracker.id store result score @s playertracker.id run scoreboard players add #next playertracker.id 1

@@ -1,0 +1,1 @@
+$item modify entity @s container.$(slot) {"function":"minecraft:set_components","components":{"minecraft:lodestone_tracker":{"target":{"dimension":"$(dimension)","pos":$(pos)},"tracked":false}}}
