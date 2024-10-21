@@ -1,1 +1,1 @@
-$tellraw @a[tag=this] {"text":" >> ","extra":[{"color":"#D3D3D3","selector":"@s","clickEvent":{"action":"run_command","value":"/trigger playertracker.trackplayer set $(id)"},"hoverEvent":{"action":"show_text","contents":"Click to select"}}]}
+$tellraw @a[tag=this] {"text":" >> ","extra":[{"color":"#D3D3D3","selector":"@s","clickEvent":{"action":"run_command","value":"/trigger playertracker.trackid set $(id)"},"hoverEvent":{"action":"show_text","contents":"Click to select"}}]}

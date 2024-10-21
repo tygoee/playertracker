@@ -1,1 +1,1 @@
-execute as @a if score @s playertracker.trackplayer matches 1.. run function playertracker:tracker/set
+execute as @a if score @s playertracker.trackid matches 1.. run function playertracker:tracker/set

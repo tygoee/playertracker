@@ -1,4 +1,4 @@
-scoreboard players enable @s playertracker.trackplayer
+scoreboard players enable @s playertracker.trackid
 tellraw @s {"color":"gold","text":"Please select a player to track: "}
 
 tag @s add this

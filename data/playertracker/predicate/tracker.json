@@ -9,7 +9,7 @@
                     "type": "minecraft:fixed",
                     "name": "#this"
                 },
-                "score": "playertracker.trackplayer"
+                "score": "playertracker.trackid"
             },
             "max": {
                 "type": "minecraft:score",
@@ -17,7 +17,7 @@
                     "type": "minecraft:fixed",
                     "name": "#this"
                 },
-                "score": "playertracker.trackplayer"
+                "score": "playertracker.trackid"
             }
         }
     }
